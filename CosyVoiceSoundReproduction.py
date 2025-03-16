@@ -17,7 +17,7 @@ print(f"your voice id is {voice_id}")
 
 # 使用复刻的声音进行语音合成
 synthesizer = SpeechSynthesizer(model=target_model, voice=voice_id)
-audio = synthesizer.call("老铁，我跟你讲啊，画画这个事儿呢，靠的就是感觉。你得相信自己的眼睛，看准了，就果断下笔。色调啊、构图啊，咱们别整得太复杂，舒服就行了。兄弟你这次的创作，颜色选的是真的很可以，画面特别干净，一看就有故事。你知道吧，有时候简单点儿反而更难，能抓住人眼睛的，那才叫真本事。这种感觉啊，你一定要保持住，以后绝对越来越稳！")
+audio = synthesizer.call("老铁，我跟你讲啊，画画这个事儿呢，靠的就是感觉。你得相信自己的眼睛，看准了，就果断下笔。色调啊、构图啊，咱们别整得太复杂，舒服就行了。")
 print("requestId: ", synthesizer.get_last_request_id())
 
 # 将合成的音频文件保存到本地文件
