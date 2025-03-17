@@ -69,7 +69,7 @@ def synthesizer_with_llm():
         callback=callback,
     )
 
-    messages = [{"role": "user", "content": "你是谁？"}]
+    messages = [{"role": "user", "content": "请介绍一下你自己"}]
     responses = Generation.call(
         model="qwen-turbo",
         messages=messages,
