@@ -3,8 +3,8 @@ import dashscope
 from dashscope.audio.tts_v2 import VoiceEnrollmentService, SpeechSynthesizer
 
 dashscope.api_key = os.getenv('DASHSCOPE_API_KEY')  # 如果您没有配置环境变量，请在此处用您的API-KEY进行替换
-url = "https://goldierillsave.oss-cn-shanghai.aliyuncs.com/CosyVoiceSoundReproduction/goldierill_%20voice%E5%8E%9F%E5%A3%B0.wav"  # 请按实际情况进行替换
-prefix = 'goldie02'  # 已缩短为8个字符，符合10个字符以内的限制
+url = "https://goldierillsave.oss-cn-shanghai.aliyuncs.com/CosyVoiceSoundReproduction/GoldieBladeRunner.wav"  # 请按实际情况进行替换
+prefix = 'goldie04'  # 已缩短为8个字符，符合10个字符以内的限制
 target_model = "cosyvoice-v1"
 
 # 创建语音注册服务实例

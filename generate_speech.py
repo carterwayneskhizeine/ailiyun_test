@@ -6,14 +6,14 @@ from dashscope.audio.tts_v2 import SpeechSynthesizer
 dashscope.api_key = os.getenv('DASHSCOPE_API_KEY')  # 如果您没有配置环境变量，请在此处用您的API-KEY进行替换
 
 # 使用现有的voice ID
-voice_id = "cosyvoice-goldie02-21b5100d79a34f9c9a1f3798ac75ad3a"
+voice_id = "cosyvoice-goldie03-a24341348c6a4f54a830e789b4030d2b"
 target_model = "cosyvoice-v1"
 
 # 创建语音合成器实例
 synthesizer = SpeechSynthesizer(model=target_model, voice=voice_id)
 
 # 要合成的文本内容
-text_to_synthesize = "老铁，我跟你讲啊，画画这个事儿呢，靠的就是感觉。你得相信自己的眼睛，看准了，就果断下笔。色调啊、构图啊，咱们别整得太复杂，舒服就行了。"
+text_to_synthesize = "好了，老铁时间到了。"
 
 # 调用语音合成
 audio = synthesizer.call(text_to_synthesize)

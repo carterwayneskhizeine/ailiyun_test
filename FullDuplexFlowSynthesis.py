@@ -25,7 +25,7 @@ from dashscope import Generation
 
 dashscope.api_key = os.getenv('DASHSCOPE_API_KEY')
 model = "cosyvoice-v1"
-voice = "cosyvoice-goldie02-21b5100d79a34f9c9a1f3798ac75ad3a"
+voice = "cosyvoice-goldie03-a24341348c6a4f54a830e789b4030d2b"
 
 
 class Callback(ResultCallback):
